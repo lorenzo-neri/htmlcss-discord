@@ -17,6 +17,12 @@ body{
   font-family: 'gg sans SemiBold', sans-serif;
 
 }
+
+.wave{
+  background-image: url(../img/wave.svg);
+  height: 50px;
+  opacity: 0.07;
+}
 /* #endregion Common */
 
 /* #region Debug */
@@ -103,12 +109,14 @@ body{
 }
 
 /* Colors */
-/* .bg_section {
+.bg_section {
   background-color: #ededed;
-  background-image: url(../img/wave.svg);
-  filter: invert(74%) sepia(93%) saturate(0%) hue-rotate(249deg) brightness(105%) contrast(100%);
-  background-size: small;
-} */
+}
+
+.rotate{
+  transform: rotate(3.142rad);
+}
+
 
 /* #endregion Utility */
 
@@ -208,6 +216,10 @@ h2{
   padding-bottom: 1rem;
 }
 
+.stars{
+ text-align: center;
+}
+
 h3+div{
   justify-content: center;
 }
@@ -233,4 +245,16 @@ footer > .top, footer > .bottom {
   padding: 1rem 0;
 }
 
+.col-4>h2{
+  color: #7289d9;
+}
+
+h2+img{
+  width: 1.3rem;
+}
+img+select{
+  color: #fffefe;
+  background-color: #22262a;
+  border: none;
+}
 /* #endregion Footer */
