@@ -10,6 +10,13 @@ section {
   padding: 2rem 0;
 }
 
+body{
+  font-family: 'gg sans', sans-serif;
+  font-family: 'gg sans Normal', sans-serif;
+  font-family: 'gg sans Medium', sans-serif;
+  font-family: 'gg sans SemiBold', sans-serif;
+
+}
 /* #endregion Common */
 
 /* #region Debug */
@@ -149,11 +156,37 @@ header {
 /* #region Main */
 
 .jumbotron {
-  background-color: paleturquoise;
-  height: 450px; /* we might need to keep this */
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   padding: 2rem 0;
+  text-align: center;
+  color: #fffefe;
+  height: 450px; /* we might need to keep this */
 }
 
+.container-sm>h1{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.container-sm>p{
+  padding-bottom: 3rem;
+}
+
+.container-sm>a{
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.button_left{
+  color: black;
+  background-color: #fffefe;
+  margin-right: 1rem;
+}
+.button_right{
+  color: #fffefe;
+  background-color: #22272b;
+  margin-left: 1rem;
+}
 /* #endregion Main */
 
 
