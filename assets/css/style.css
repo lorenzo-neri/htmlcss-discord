@@ -257,4 +257,41 @@ img+select{
   background-color: #22262a;
   border: none;
 }
+
+.social{
+  color: #fffefe;
+  padding-top: 0.8rem;
+}
+.fa-brands{
+  padding-right: 1.5rem;
+}
+
+h4{
+  font-size: large;
+  color: #7289d9;
+  padding-top: 0.5rem;
+}
+
+li{
+  list-style: none;
+  color: #fffefe;
+  font-size: 0.9rem;
+}
+
+hr{
+  width: 80%;
+  margin: auto;
+  border: solid 1px #303948;
+}
+
+.sign-up_button{
+  color: #fffefe;
+  background-color: #8ea1e1;
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: small;
+
+}
+
 /* #endregion Footer */
