@@ -103,9 +103,12 @@ body{
 }
 
 /* Colors */
-.bg_section {
+/* .bg_section {
   background-color: #ededed;
-}
+  background-image: url(../img/wave.svg);
+  filter: invert(74%) sepia(93%) saturate(0%) hue-rotate(249deg) brightness(105%) contrast(100%);
+  background-size: small;
+} */
 
 /* #endregion Utility */
 
@@ -224,7 +227,7 @@ h3+div>a{
 /* #region Footer */
 
 footer {
-  background-color: darkblue;
+  background-color: #22262a;
 }
 footer > .top, footer > .bottom {
   padding: 1rem 0;
